@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :friends
+  resources :friends # handles all the freaking CRUD and table routes in one!
   # get 'home/index'
   get 'home/about'
   root 'home#index'
